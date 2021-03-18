@@ -1,38 +1,242 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.piece-container {
+  display: flex;
 }
+
+.puzzle {
+  background-image: url("./images/mott.jpeg");
+  background-repeat: no-repeat;
+  height: 602px;
+  width: 600px;
+  margin: 5px;
+}
+
+.piece-one {
+  background-position: 0 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-two {
+  background-position: 0 -100px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-three {
+  background-position: 0 -200px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-four {
+  background-position: 0 -300px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-five {
+  background-position: 0 -400px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-six {
+  background-position: 0px -500px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-seven {
+  background-position: -100px 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-eight {
+  background-position: -100px -100px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-nine {
+  background-position: -100px -200px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-ten {
+  background-position: -100px -300px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-eleven {
+  background-position: -100px -400px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twelve {
+  background-position: -100px -500px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirteen {
+  background-position: -200px -0px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-fourteen {
+  background-position: -200px -100px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-fifteen {
+  background-position: -200px -200px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-sixteen {
+  background-position: -200px -300px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-seventeen {
+  background-position: -200px -400px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-eighteen {
+  background-position: -200px -500px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-nineteen {
+  background-position: -300px 0;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty {
+  background-position: -300px -100px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-one {
+  background-position: -300px -200px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-two {
+  background-position: -300px -300px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-three {
+  background-position: -300px -400px;
+  height: 100px;
+  width: 100px;
+}
+
+
+.piece-twenty-four {
+  background-position: -300px -500px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-five {
+  background-position: -400px 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-six {
+  background-position: -400px -100px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-seven {
+  background-position: -400px -200px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-eight {
+  background-position: -400px -300px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-twenty-nine {
+  background-position: -400px -400px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirty {
+  background-position: -400px -500px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirty-one {
+  background-position: -500px 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirty-two {
+  background-position: -500px -100px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirty-three {
+  background-position: -500px -200px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirty-four {
+  background-position: -500px -300px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirty-five {
+  background-position: -500px -400px;
+  height: 100px;
+  width: 100px;
+}
+
+.piece-thirty-six {
+  background-position: -500px -500px;
+  height: 100px;
+  width: 100px;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
