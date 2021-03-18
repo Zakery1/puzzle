@@ -45,7 +45,7 @@ function App() {
   const pieces = tiles.map((item, index) => {
     console.log(item)
     return (
-      <div className="piece-container">
+      <div key={item} className="piece-container">
         {index < 6 ? (
           <Draggable>
             <div className={`puzzle piece-${item}`}></div>
